@@ -1,0 +1,192 @@
+
+.accordion {
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 1);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    margin-top: 12em;
+    width: 100%;
+    z-index: 0;
+}
+
+.accordion__ilustration {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.accordion__woman-online {
+    background-image: url('../assets/illustration-woman-online-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 16em;
+    margin-top: -9em;
+    width: 90%;
+    z-index: 10;
+}
+
+.accordion__ilustration-pattern{
+    background-image: url('../assets/bg-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 7.5em;
+    margin-top: -5.5em;
+    width: 90%;
+    z-index: 5;
+}
+
+.accordion__h1 {
+    color: var(--color-text-accordion-active);
+    font-size: var(--font-size-h1-mobile);
+    font-weight: var(--font-weight-bold);
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+
+.accordion__section {
+    padding-top: 1em;
+    padding-bottom: 3em;
+    width: 100%;
+}
+
+.accordion__header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    border-bottom: 1px solid var(--color-dividers);
+}
+
+
+.accordion__header h2 {
+    color: var(--color-text-accordion);
+}
+
+.active {
+    color: var(--color-text-accordion-active);
+    font-weight: var(--font-weight-bold);
+    transition: all 0.5s;
+}
+.arrow {
+    background-image: url('../assets/icon-arrow-down.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: .6em;
+    width: .8em;
+    transition: all 0.5s;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+.accordion__content {
+    color: var(--color-text-paragraph);
+    width: 90%;
+}
+
+
+@media (min-width: 850px) and (max-width: 1439px) {
+    .accordion {
+        flex-direction: row;
+        overflow: hidden;
+        padding: 4em 2em;
+        padding-bottom: 3em;
+        margin-top: 0;
+        width: 100%;
+        z-index: 0;
+    }
+    
+    .accordion__woman-online {
+        background-position: right center;
+        height: 28em;
+        margin-bottom: 6em;
+        margin-left: -12em;
+        width: 100%;
+    }
+
+    .accordion__ilustration-pattern{
+        background-position: center bottom;
+        height: 20em;
+        margin-left: -33em;
+        margin-top: -12em;
+        margin-bottom: -25em;
+        width: 150%;
+    }
+    
+    
+    .accordion__section {
+        padding-top: 1em;
+        padding-bottom: 3em;
+    }
+
+    .accordion__header {
+        width: 80%;
+    }
+    
+    
+    .accordion__header h2:hover {
+        color: var(--color-text-accordion-hover);
+        cursor: pointer;
+    }
+    
+    .accordion__content {
+        color: var(--color-text-paragraph);
+        width: 70%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .accordion {
+        flex-direction: row;
+        overflow: hidden;
+        padding: 4em 2em;
+        padding-bottom: 3em;
+        margin-top: 0;
+        width: 100%;
+        z-index: 0;
+    }
+    
+    .accordion__woman-online {
+        background-position: right center;
+        height: 28em;
+        margin-bottom: 6em;
+        margin-left: -13em;
+        width: 100%;
+    }
+
+    .accordion__ilustration-pattern{
+        background-position: center bottom;
+        height: 20em;
+        margin-left: -33em;
+        margin-top: -12em;
+        margin-bottom: -25em;
+        width: 150%;
+    }
+    
+    
+    .accordion__section {
+        padding-top: 1em;
+        padding-bottom: 3em;
+    }
+    
+    
+    .accordion__header h2:hover {
+        color: var(--color-text-accordion-hover);
+        cursor: pointer;
+    }
+    
+    .accordion__content {
+        color: var(--color-text-paragraph);
+        width: 70%;
+    }
+}

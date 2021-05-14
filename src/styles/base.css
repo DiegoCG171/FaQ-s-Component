@@ -1,0 +1,54 @@
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: var(--font-family-main);
+    font-size: 100%;
+    line-height: 1.5;
+    min-height: 100vh;
+    overflow-x: hidden;
+    text-rendering: optimizeSpeed;
+}
+
+/* Make images easier to work with */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Inherit fonts for inputs and buttons */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
