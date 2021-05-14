@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ade43683.chunk.css",
+    "main.js": "/static/js/main.3e41844f.chunk.js",
+    "main.js.map": "/static/js/main.3e41844f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.208f59f5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.208f59f5.js.map",
+    "static/js/2.c7f3b96b.chunk.js": "/static/js/2.c7f3b96b.chunk.js",
+    "static/js/2.c7f3b96b.chunk.js.map": "/static/js/2.c7f3b96b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ade43683.chunk.css.map": "/static/css/main.ade43683.chunk.css.map",
+    "static/js/2.c7f3b96b.chunk.js.LICENSE.txt": "/static/js/2.c7f3b96b.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/illustration-woman-online-desktop.843eb114.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.208f59f5.js",
+    "static/js/2.c7f3b96b.chunk.js",
+    "static/css/main.ade43683.chunk.css",
+    "static/js/main.3e41844f.chunk.js"
+  ]
+}
