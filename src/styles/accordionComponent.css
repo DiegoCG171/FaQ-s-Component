@@ -19,7 +19,7 @@
 }
 
 .accordion__woman-online {
-    background-image: url('../assets/illustration-woman-online-desktop.svg');
+    background-image: url('https://res.cloudinary.com/dmfhnhyyj/image/upload/v1620956507/illustration-woman-online-desktop_wg5aql.svg');
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -30,7 +30,7 @@
 }
 
 .accordion__ilustration-pattern{
-    background-image: url('../assets/bg-pattern-mobile.svg');
+    background-image: url('https://res.cloudinary.com/dmfhnhyyj/image/upload/v1620956506/bg-pattern-mobile_ssjsdl.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -75,7 +75,7 @@
     transition: all 0.5s;
 }
 .arrow {
-    background-image: url('../assets/icon-arrow-down.svg');
+    background-image: url('https://res.cloudinary.com/dmfhnhyyj/image/upload/v1620956507/icon-arrow-down_ti9wx0.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -115,6 +115,7 @@
     }
 
     .accordion__ilustration-pattern{
+        background-image: url('https://res.cloudinary.com/dmfhnhyyj/image/upload/v1620956509/bg-pattern-desktop_fc7beh.svg');
         background-position: center bottom;
         height: 20em;
         margin-left: -33em;
